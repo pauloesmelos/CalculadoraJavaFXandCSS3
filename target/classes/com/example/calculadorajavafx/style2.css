@@ -1,0 +1,12 @@
+*{
+    margin: 0; padding: 0; float: left;
+}
+.label{
+    -fx-font-weight: 500;
+}
+
+.button:hover{
+    -fx-cursor: pointer;
+    -fx-border-color: #000000;
+    -fx-padding: 5;
+}

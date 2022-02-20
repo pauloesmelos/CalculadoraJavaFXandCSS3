@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="body" minHeight="-Infinity" minWidth="-Infinity" prefHeight="357.0" prefWidth="372.0" styleClass="red" stylesheets="@style2.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.calculadorajavafx.HelloController">
+   <children>
+      <Button fx:id="btn01" layoutX="53.0" layoutY="132.0" mnemonicParsing="false" onAction="#btnAction" prefHeight="25.0" prefWidth="67.0" style="-fx-background-color: #8FC1B5;" text="1" />
+      <Button fx:id="btn02" layoutX="137.0" layoutY="132.0" mnemonicParsing="false" onAction="#btnAction" prefHeight="25.0" prefWidth="67.0" style="-fx-background-color: #8FC1B5;" text="2" />
+      <Button fx:id="btn03" layoutX="217.0" layoutY="132.0" mnemonicParsing="false" onAction="#btnAction" prefHeight="25.0" prefWidth="67.0" style="-fx-background-color: #8FC1B5;" text="3" />
+      <TextField fx:id="tf01" layoutX="58.0" layoutY="90.0" prefHeight="25.0" prefWidth="230.0" style="-fx-border-color: #265C4B;" />
+      <Button layoutX="53.0" layoutY="166.0" mnemonicParsing="false" onAction="#btnAction" prefHeight="25.0" prefWidth="67.0" style="-fx-background-color: #8FC1B5;" text="4" />
+      <Button layoutX="137.0" layoutY="168.0" mnemonicParsing="false" onAction="#btnAction" prefHeight="25.0" prefWidth="67.0" style="-fx-background-color: #8FC1B5;" text="5" />
+      <Button layoutX="217.0" layoutY="166.0" mnemonicParsing="false" onAction="#btnAction" prefHeight="25.0" prefWidth="67.0" style="-fx-background-color: #8FC1B5;" text="6" />
+      <Button layoutX="53.0" layoutY="200.0" mnemonicParsing="false" onAction="#btnAction" prefHeight="25.0" prefWidth="67.0" style="-fx-background-color: #8FC1B5;" text="7" />
+      <Button layoutX="137.0" layoutY="200.0" mnemonicParsing="false" onAction="#btnAction" prefHeight="25.0" prefWidth="67.0" style="-fx-background-color: #8FC1B5;" text="8" />
+      <Button layoutX="217.0" layoutY="200.0" mnemonicParsing="false" onAction="#btnAction" prefHeight="25.0" prefWidth="67.0" style="-fx-background-color: #8FC1B5;" text="9" />
+      <Button layoutX="137.0" layoutY="237.0" mnemonicParsing="false" onAction="#btnAction" prefHeight="25.0" prefWidth="67.0" style="-fx-background-color: #8FC1B5;" text="0" />
+      <Button layoutX="51.0" layoutY="272.0" mnemonicParsing="false" onAction="#btnOperacao" prefHeight="43.0" prefWidth="49.0" style="-fx-background-color: #8FC1B5;" text="+" />
+      <Button layoutX="113.0" layoutY="272.0" mnemonicParsing="false" onAction="#btnOperacao" prefHeight="43.0" prefWidth="49.0" style="-fx-background-color: #8FC1B5;" text="-" />
+      <Button layoutX="53.0" layoutY="237.0" mnemonicParsing="false" onAction="#btnRemoveExpression" prefHeight="25.0" prefWidth="67.0" style="-fx-background-color: #8FC1B5;" text="C" />
+      <Button fx:id="btn04" layoutX="217.0" layoutY="237.0" mnemonicParsing="false" onAction="#btnCalcular" prefHeight="25.0" prefWidth="67.0" style="-fx-background-color: #8FC1B5;" text="=" />
+      <TextArea fx:id="txt01" layoutX="58.0" layoutY="38.0" prefHeight="43.0" prefWidth="230.0" style="-fx-border-color: #265C4B;" />
+      <Label layoutX="108.0" layoutY="14.0" prefHeight="17.0" prefWidth="131.0" style="-fx-font-weight: 100;" text="Expressão matemática" />
+      <Button onAction="#btnOperacao" layoutX="171.0" layoutY="272.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="49.0" style="-fx-background-color: #8FC1B5;" text="x" />
+      <Button onAction="#btnOperacao" layoutX="232.0" layoutY="270.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="49.0" style="-fx-background-color: #8FC1B5;" text="/" />
+   </children>
+</AnchorPane>
